@@ -29,6 +29,7 @@ header::before {
   filter: brightness(0.3) grayscale(0.8);
   z-index: -1;
   background-position: center;
+  background-size: cover;
 }
 
 header h1 {
