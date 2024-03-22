@@ -28,6 +28,7 @@ header::before {
   background-image: url("./media/header.jpg");
   filter: brightness(0.3) grayscale(0.8);
   z-index: -1;
+  background-position: center;
 }
 
 header h1 {
@@ -43,6 +44,7 @@ header h2 {
   text-transform: uppercase;
   text-align: center;
 }
+
 section {
   margin: 0;
   padding: 24px;
@@ -63,7 +65,7 @@ section h2 {
   display: flex;
 }
 
-.two-columns > div {
+.two-columns>div {
   flex: 0 0 50%;
   padding: 0 12px;
 }
@@ -165,6 +167,7 @@ section h2 {
   font-weight: bold;
   margin-top: 0;
 }
+
 .project-box {
   position: relative;
   height: 300px;
@@ -199,12 +202,13 @@ footer {
   padding: 24px 0;
   background-color: #f2f2f2;
 }
+
 @media (max-width: 768px) {
   .two-columns {
     flex-direction: column;
   }
 
-  .two-columns > div {
+  .two-columns>div {
     margin-bottom: 24px;
   }
 
